@@ -1,7 +1,7 @@
 import { iArticle } from "../src/shared/interfaces";
 
 // Import author profiles, just type the name you have set in _BLOG_SETUP inside the curly brackets
-import { MAYUR, RUPALI } from "./_BLOG_SETUP";
+import { JULANN } from "./_BLOG_SETUP";
 
 // main article list to display all atricles
 /**
@@ -12,7 +12,7 @@ import { MAYUR, RUPALI } from "./_BLOG_SETUP";
     featureArticle: true,
     preview: {
         // the author object you created in _BLOG_SETUP file
-        author: MAYUR,
+        author: JULANN,
         date: "March 03 2022",
         articleTitle: "How to setup this plog template",
         tags: "demo, blog setup",
@@ -25,7 +25,7 @@ import { MAYUR, RUPALI } from "./_BLOG_SETUP";
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
         keywords: "demo, blog setup",
         ogImage: "/images/tutorials/demo-image.jpg",
-        twitterHandle: "@mayur_nalwala",
+        twitterHandle: "@JULANN_nalwala",
     }
 }
  */
@@ -33,31 +33,32 @@ import { MAYUR, RUPALI } from "./_BLOG_SETUP";
 // clear this article list and add your own
 const ARTICLES_LIST: iArticle[] = [
   {
-    path: "/pages/tutorial/how-to-setup-blog.tsx",
+    path: "/pages/tutorial/plaid-shirt-tailored-shirt-for-women-men.tsx",
     featureArticle: true,
     preview: {
-      author: MAYUR,
-      date: "August 08 2022",
-      articleTitle: "How to setup this blog template",
-      tags: "demo, blog setup",
-      thumbnail: "/public/imp_assets/tutorials/how-to-setup-blog.svg",
-      shortIntro: "These are the steps to setup your blog",
+      author: JULANN,
+      date: "October 03 2023",
+      articleTitle: "Plaid shirt-tailored shirt for women/ men",
+      tags: "Plaid shirt, demo blog",
+      thumbnail: "/public/imp_assets/tutorials/plaid-shirt/plaidshirt.jpg",
+      shortIntro: "This pattern is a Kwik Sew K3555 collared shirt.  \
+      The instructions below are for a basic long sleeve with a tailored placket and cuff, lined yoke, collar and stand, and front button band. ",
       category: "tutorial",
     },
     seo: {
-      title: "How to setup this blog template",
+      title: "Plaid shirt-tailored shirt for women/ men",
       description: "These are the steps to setup your blog",
-      keywords: "demo, blog setup",
+      keywords: "Plaid shirt, demo blog",
       ogImage: "/public/imp_assets/tutorials/how-to-setup-blog.svg",
-      twitterHandle: "@mayur_nalwala",
-      author: MAYUR.name,
+      twitterHandle: "@JULANN_nalwala",
+      author: JULANN.name,
     },
   },
   {
     path: "/pages/tutorial/how-to-write-your-first-article.tsx",
     featureArticle: true,
     preview: {
-      author: RUPALI,
+      author: JULANN,
       date: "August 08 2022",
       articleTitle: "How to write your first article",
       tags: "demo, first article",
@@ -76,7 +77,7 @@ const ARTICLES_LIST: iArticle[] = [
     path: "/pages/tutorial/how-to-deploy-blog.tsx",
     featureArticle: true,
     preview: {
-      author: RUPALI,
+      author: JULANN,
       date: "August 08 2022",
       articleTitle: "How to Export and deploy on firebase",
       tags: "demo, deploy blog",
@@ -92,7 +93,7 @@ const ARTICLES_LIST: iArticle[] = [
   {
     path: "/pages/tutorial/home-layout.tsx",
     preview: {
-      author: RUPALI,
+      author: JULANN,
       date: "August 14 2022",
       articleTitle: "Home Layout Example",
       tags: "demo, layout, home layout",
@@ -106,13 +107,13 @@ const ARTICLES_LIST: iArticle[] = [
       keywords:
         "next js, tailwind css, typescript, blog template, default layout, default home layout",
       ogImage: "/public/imp_assets/tutorials/home-layouts.svg",
-      author: RUPALI.name,
+      author: JULANN.name,
     },
   },
   {
     path: "/pages/tutorial/blog-with-sidebar-layout.tsx",
     preview: {
-      author: MAYUR,
+      author: JULANN,
       date: "August 14 2022",
       articleTitle: "Page Layout for a article with sidebar",
       tags: "demo, with sidebar, default layout",
@@ -130,7 +131,7 @@ const ARTICLES_LIST: iArticle[] = [
   {
     path: "/pages/tutorial/blog-with-centered-layout.tsx",
     preview: {
-      author: RUPALI,
+      author: JULANN,
       date: "August 14 2022",
       articleTitle: "Page Layout for a article with centered layout",
       tags: "demo, centered, centered layout",
@@ -148,7 +149,7 @@ const ARTICLES_LIST: iArticle[] = [
   {
     path: "/pages/tutorial/all-components.tsx",
     preview: {
-      author: RUPALI,
+      author: JULANN,
       date: "August 08 2022",
       articleTitle: "All Components",
       tags: "demo, all components",
@@ -164,7 +165,7 @@ const ARTICLES_LIST: iArticle[] = [
   {
     path: "/pages/tutorial/style-guide.tsx",
     preview: {
-      author: MAYUR,
+      author: JULANN,
       date: "August 10 2022",
       articleTitle: "Style Guide",
       tags: "demo, all components, style guide, styling tutorial",
@@ -181,7 +182,7 @@ const ARTICLES_LIST: iArticle[] = [
   {
     path: "/pages/tutorial/icons.tsx",
     preview: {
-      author: MAYUR,
+      author: JULANN,
       date: "August 13 2022",
       articleTitle: "How to use icons",
       tags: "demo, all components, style guide, styling tutorial, icons, how to use icons in website",
@@ -198,7 +199,7 @@ const ARTICLES_LIST: iArticle[] = [
   {
     path: "/pages/blog/your-first-article.tsx",
     preview: {
-      author: MAYUR,
+      author: JULANN,
       date: "August 6 2022",
       articleTitle: "Your first article",
       shortIntro:
