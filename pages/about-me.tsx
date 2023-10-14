@@ -6,7 +6,7 @@ import { iSEO } from "../src/shared/interfaces";
 
 const AboutUs = () => {
     const PAGE_SEO: iSEO = {
-        title: 'About Us',
+        title: 'About Me',
         description: `Hi we are WebExpe. This is an open source blog template which can help you start a simple static blog.`,
         keywords: 'webexpx, contact us, webexpe13@gmail.com, next js blog template',
         author: 'Mayur Nalwala, Rupali Yadav'

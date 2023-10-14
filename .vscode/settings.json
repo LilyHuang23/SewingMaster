@@ -1,11 +1,9 @@
 {
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "files.exclude": {
-        "**/node_modules": true
-    },
-    "cSpell.words": [
-        "JULANN"
-    ]
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "cSpell.words": ["JULANN", "Kwik"]
 }

@@ -31,10 +31,10 @@ const Article = () => {
                 <Text p>
                     We are working on plaid fabric for this project  Here are some articles that are helpful when selecting plaid fabric and a pattern style.
                 </Text>
-                <Text>Plaid Shirt Article #1<LinkTo href="https://drive.google.com/file/d/0B6iyXm-Sb_h0UVV1VjN1Q0dRVlU/view?resourcekey=0-tE3GOc2B-QwhRqwCygAjZg" external /> </Text>
-                <Text>Plaid Shirt Article #2<LinkTo href="https://drive.google.com/file/d/0B6iyXm-Sb_h0NkhtUlVhRFpnVlk/view?resourcekey=0-l9NxdtrIEs2-bI7WqDwS-w" external /> </Text>
-                <Text>Plaid Shirt Article #3<LinkTo href="https://drive.google.com/file/d/0B6iyXm-Sb_h0MU1lN3VUek9DVGs/view?resourcekey=0-25f3Lzww9SIZeMYuzJrbNw" external /> </Text>
-                <Text>Plaid Shirt Article #4<LinkTo href="https://drive.google.com/file/d/0B6iyXm-Sb_h0SW9OU2tLZUY2TFE/view?resourcekey=0-dwQEO8mNhLMYXeILN3WpYQ" external /> </Text>
+                <LinkTo href="https://drive.google.com/file/d/0B6iyXm-Sb_h0UVV1VjN1Q0dRVlU/view?resourcekey=0-tE3GOc2B-QwhRqwCygAjZg" external>npmPlaid Shirt Article #1</LinkTo>
+                <LinkTo href="https://drive.google.com/file/d/0B6iyXm-Sb_h0NkhtUlVhRFpnVlk/view?resourcekey=0-l9NxdtrIEs2-bI7WqDwS-w" external>Plaid Shirt Article #2</LinkTo>
+                <LinkTo href="https://drive.google.com/file/d/0B6iyXm-Sb_h0MU1lN3VUek9DVGs/view?resourcekey=0-25f3Lzww9SIZeMYuzJrbNw" external>Plaid Shirt Article #3</LinkTo>
+                <LinkTo href="https://drive.google.com/file/d/0B6iyXm-Sb_h0SW9OU2tLZUY2TFE/view?resourcekey=0-dwQEO8mNhLMYXeILN3WpYQ" external>Plaid Shirt Article #4</LinkTo>
                 <Text p >Prepare your fabric by preshrinking it and then pressing it to get the wrinkles out.  Also press the pattern pieces so they are nice and smooth.</Text>
                 <Text p >Here are some basic tips when cutting and sewing your classic plaid shirt:</Text>
                 <List type={ListType.disc}>
@@ -635,122 +635,183 @@ const Article = () => {
                 <Text p>Now press on the other fold line of the tower.  Follow the lines on the placket pattern.
 </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
                 <Text p>Here is what it will look like pressed.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
-                <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Now fold the other half of the tower down and pin in place.  Press.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Now check the right side of the tower.  Make sure that the top point is in the center of the tower.  Also make sure that the two sides come to the point at the same place horizontally.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Now do the same for the left placket.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Turn the plackets to the wrong side.  Transfer the stitch box markings.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>With right sleeve WRONG side up, place placket RIGHT side down, matching the placket cutting line with the sleeve cutting line.  Also match up horizontal lines.  Notice that the tower of the placket is towards the center of the sleeve.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Pin placket in place and sew on stitching line with a 1.5 stitch length.
+Cut between the stitching lines and cut out diagonally to corners.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press seam allowance towards under placket.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press other seam allowance towards placket overlap "Tower".</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Turn placket to right side and press placket seams again.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Open up placket to sleeve right side and press top of stitch box flat.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Turn under placket slightly over stitching line, matching horizontal plaid lines.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Pin in place and edge stitch under placket from bottom to top.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Now fold upper placket over and press.  Match horizontal and vertical plaid lines and pin in place.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Edgestitch upper placket and stitch towards tower area.  Choose method of topstitching:  "X" or "rectangle." 
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Make sure that the horizontal stitching in the tower area is stitched 1/8" above the top of the stitch box, which will prevent the raw edges from slipping out.
+</Text><Text p>Here is the "X" style, stitched continuously, OR</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>This is the "rectangle" method.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Pull the needle thread to the wrong side.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Tie a double knot and pull threads between the fabric layers with a hand needle.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Do the same with the left shirt sleeve and placket.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text subtitle className="mt-10">
+                PREPARING SLEEVES AND CUFFS
+                </Text>
+                <Text p>Make sure that the tuck markings are located on each sleeve bottom.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Pin sleeve pleats in place, with pleats going the same direction as the placket.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Make sure that the tucks for each sleeve are even width apart and the same distance from the placket.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Baste sleeve plackets slightly less than 1/4" from edge.  (1/2" for a 5/8" SA.)</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text subtitle className="mt-10">
+                CUFFS--CUTTING OUT
+                </Text>
+                <Text p>Cuffs will match each other horizontally.  Cut out the cuffs before sewing the side seams so that you can match the vertical plaids easier.  Add 1" to the button side of the cuff pattern to make the cuff larger.  This is because we have added the sleeve placket to the sleeve. </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>To make the plaids match vertically, see below.  The cuffs will need to be cut out individually to match each sleeve.  In the picture below, the right sleeve is shown RIGHT side up, from the upper placket to the cut edge.  Add the cuff pattern below, RIGHT side up, with the buttonhole side under the upper placket.  The pattern extends 1/4" beyond the placket for the 1/4" seam allowance (5/8" for a 5/8" SA pattern.)  Pin the sleeve to the cuff pattern. </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Indicate marks on the cuff pattern the plaid lines you want to match.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Get some extra plaid fabric and decide where you would like the bottom of the finished cuff to be.  I have folded the plaid under to indicate where I would like the bottom of the cuff fold to be.  Mark with a pin or snip.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Open up cuff pattern and plaid fabric.  Match plaid markings on pattern to fabric.  Pin on and cut out cuff.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Repeat for left cuff.  Turn pattern over and pin to left sleeve.  Mark on pattern the vertical plaid lines to match up.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Horizontal plaid lines will match the right cuff.  Place pattern to match the vertical plaid markings on pattern.  Pin and cut out.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Label both cuffs.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Cut out interfacing for both cuffs.  My pattern indicated to cut the interfacing to the line by the arrow.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press interfacing to wrong side of cuffs.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text subtitle className="mt-10">
+                SEWING SLEEVES TO SHIRT
+                </Text>
+                <Text p>Fold sleeve in half to make sure that the horizontal plaid lines match up.  Trim if necessary.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Match up the two fronts in the underarm on the side seams and also the two backs.  Trim off if they don't match up.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Pin right side of sleeve to right side of shirt, match single and double notches.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>With 3/8" seam allowance (or 5/8"), stitch sleeve to armscye, with sleeve side up.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press seam allowance towards shirt.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Serge raw edges of armscye.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Also press on right side to prevent fabric tucks.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Edge stitch shirt, next to the sleeve, through the seam allowance.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Finished edge stitching.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p className="dark:bg-slate-800 bg-blue-200 mt-5 rounded px-3 py-2">Note:  The cuffs will continue after the side seams are finished.
+                </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text subtitle className="mt-10">
+                SIDE SEAMS--ALTERNATIVELY FELL SEAMS
+                </Text>
+                <Text p className="dark:bg-slate-800 bg-blue-200 mt-5 rounded px-3 py-2">NOTE:  If you want to do this method and your seam allowances are 5/8", first trim off 1/4" on the side edges , including the sleeves.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>If you are using the Kwik Sew pattern, the seam allowance will be 3/8".  Only trim off loose threads along the raw edges to make it more clean.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Place the shirt front to the shirt back, WRONG sides together, with the shirt back towards you. Offset the raw edges 1/4" so that the shirt front extends out. Make sure that your horizontal plaid lines match up.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Pin in place.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press under the shirt front raw edges 1/4" over the shirt back raw edges and pin in place.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Roll the edges over again just to check that your horizontal plaid lines will still match up.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Stitch 1/4" from the fold, using either the walking foot, OR</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>the patchwork foot, which has the 1/4" guidebar.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Once finished stitching, open up shirt and press fold towards the shirt back.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Flip shirt to the wrong side and press side seam and sleeve seam again to eliminate any fabric tucks.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>With seam flipped and pressed to the shirt back, stitch again 1/4" away from first stitch line.  This will complete the flat fell seam.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Once you sew into the sleeve, you may need to turn the sleeve inside out or create a "window" where the presser foot can stitch for a few inches before readjusting the fabric.  
+                </Text><Text p> If starting on the sleeve side, you may need to manuever the fabric to create a "window" of space to stitch in.  Slowing move your fabric forward and keep the fabric smooth to prevent puckers as you stitch. <b>Keep both stitching lines parallel to each other.</b></Text>
+                <Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Do the same alternative flat fell seam to the other shirt side.  On this side, you will need to begin the stitching at the sleeve end and then sew towards the bottom of the shirt.  Turn the sleeve inside out to begin.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+<Text subtitle className="mt-10">
+SEWING THE CUFFS
+                </Text>
+                
+                <Text p>Find instructions for cutting out the cuffs after the sleeve placket instructions.
+Press the cuff in half.  (If you have a two-piece cuff, follow your pattern instructions to sew the cuffs together.)
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Match up the tower placket with the underlap.  Check the bottom raw edges and make sure they are the same length.  Trim if necessary.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Pin the right side of the cuff to the right side of the sleeve.  Match the vertical plaid lines if the cuff has been cut out to match vertically.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Make sure that there is at least 1/4" cuff fabric extending beyond the edge of the placket on both sides of the cuff.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Sew on the cuff side to be able to follow parallel to a plaid line.  Stitch from placket end to placket end.  Do not backstitch.  Leave thread tails as a marker.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Leave thread tails as a marker.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Pull the cuff down and check to make sure that the vertical plaids match.  (optional)</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press over a tailors ham.  Press the seam allowance towards the cuff.  </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Turn sleeve right side together.  Check pressing and make sure seam is open.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Sew the cuff sides with the same technique used for the collar stand.  With cuff right side up, fold in the edge of the placket and pin in place.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Also pin back the placket underlap.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Fold up the cuff and match up raw edges on the side and top.  Pin in place.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Mark the stitching line, keeping it parallel to plaid lines.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Stitch the cuff sides, and</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>pivot at the corner and stitch over existing stitching for 1".
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Do the same with both cuff sides.  Before trimming, turn cuff corners right side out and check for accuracy.  Fix if necessary.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Trim extra seam allowances to reduce bulk.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>If the cuff seam allowances are 5/8" grad seam allowances.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Push out cuff corners.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>On inside cuff, turn under raw edges and pin to stitching line.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Slipstitching cuff opening.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Edgestitch on all four sides of cuffs.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Finished cuff.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text subtitle className="mt-10">
+                SHIRT TAIL HEM
+                </Text>
+                <Text p>Put the shirt fronts together RIGHT sides up and match up the horizontal lines. </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Pay attention to the bottom edge.  You want horizontal lines to match.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>If necessary, trim the bottom raw edges so that both sides will match up with the hem.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Also check the shirt back.  The horizontal plaids at center back should be true so trim if necessary.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>With shirt WRONG side up, press under hem 1/2" and press.  </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Concave and convex curves are a little challenging to get even and smooth.  Take your time as you measure, pin and fold.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press on the single fold.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Open up the pressed hem and fold under half the amount, 1/4", and then fold again and pin.  The double fold hem will be 1/4".</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press the double fold hem.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>When pressed, transfer all the pins to the shirt RIGHT side.  It is best to topstitch the hem on the right side.  This will allow you to stay parallel to the plaid lines along the straight edges of CF and CB.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Check the center fronts again to make sure the horizontal lines match at the hem fold.  </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Backstitch at the beginning and stitch all around the hem.  Here is a trick to backstitch by going forward.  Flip the shirt around so that it is behind the presser foot.  Begin stitching forward 1/2" from the edge of the buttonhole band.  When you get close to the edge, stop with the needle down and raise the presser foot.  Pivot the fabric around and continue to stitch forward around the shirt hem.  Do the same when you reach the opposite end.  This helps prevent messy backstitching on a very visible area.  You may pull your thread tails to the wrong side when finished stitching.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>"Backstitching" by stitching forward.  No more messy backstitches.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Take your time as you stitch around the curves, taking the pins out as you go.  Move needle position if necessary to catch the lip of the hem fold underneath.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Press hem when finished.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text subtitle className="mt-10">
+                BUTTONHOLES
+                </Text>
+                <Text p>Buttons should be 3/8", 5/16", or 1/2" in size but no bigger.  You will need 8-12 buttons.</Text>
+                <Text p>Mark buttonhole on collar stand at placement marked.  This should be at CF.  The buttonhole on the collar stand and the cuffs will be <b>horizontal.</b>  The buttonholes on the buttonhole band will be <b>vertical.</b>  </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Mark 6 - 8 vertical buttonholes on the buttonhole band where you want the top of the buttonhole to be.  The buttonholes should be centered on the band.  The first buttonhole should be 3" from buttonhole on collar stand and the remaining buttonholes should be 3 1/2" apart.  You may use the flex tool to evenly space your buttonholes.  The buttonholes can end 6-8" from the bottom hem, as long as you have one in the hip area.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Here is a close-up of the buttonhole marking on the collar stand.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>On cuff, place button 1/4" in from side edge of the cuff.  Place pin in middle of button.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Also place pin in the horizontal center of the cuff.  This is where the horizontal buttonhole begins.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>On the Bernina 530 model we will use the Bernina 3A buttonhole presser foot.  Also thread the bobbin thread through the finger of the bobbin case.  This will create a tight bobbin tension and make a smoother satin stitch on the buttonhole needle side.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>To determine the length of the buttonholes, add the size (diameter) of the button and the depth of the buttonhole.  This will be the length of your buttonholes.  On the Bernina 3A foot, move the red arrow to the length of the desired buttonhole.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Using scrap fabric with the same thickness as the buttonhole band, sew some test buttonholes.  Cut the buttonholes and slide the button through it.  You don't want the buttonhole too loose, but you also don't want it too tight or else it will be stressed when the button goes through it.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Sew all the buttonholes on the shirt.   Remember to sew VERTICAL buttonholes on the buttonhole band and HORIZONTAL buttonholes on the collar stand and the two cuffs.  I chose to decrease the width of the buttonhole setting to 4.00.  This will create a more narrow bead.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Sew all the buttonholes on the shirt. </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Sew horizontal buttonhole on the collar stand.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Completed buttonholes.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Matching buttonholes on the two cuffs.  If you sewed the longer men's tailored placket, you may want to add a buttonhole in the center of the placket.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>There are two ways you can cut open the buttonholes.  If you want to use the seam ripper, make sure it is sharp.  Put two pins just inside the buttonhole bar tacks to prevent the seam ripper from cutting through the bar tacks. </Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>OR, you could use the buttonhole knife.  Use it over a block of wood,</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Once the buttonholes are stitched, place the buttonhole band over the button side, lining up the horizontal plaid lines.  Pin the layers together to prevent them from slipping.  Place a pin through the center of each buttonhole to mark the button placement.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Then peel back the buttonhole band and transfer the pins to the button side.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>On the button side of the shirt, place the pins on the center front line.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Line up the two collar stand ends on the CF line.  Mark the button placement with a pin through the front end of the buttonhole.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>For button placement on the cuffs, line up the tower placket over the underlap, keeping vertical plaid lined up.  Mark the button placement with a pin through the front end of the buttonhole.
+</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+<Text subtitle className="mt-10">
+BUTTONS
+                </Text>
+                <Text p>Sew on buttons with a thread shank.  Make sure that the buttons are sewn on the center front line of the button side.</Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+                <Text p>Congratulations on completing this advanced project!!!
+Wear it proudly!!!</Text><Image src="/public/imp_assets/tutorials/plaid-shirt/plaidshirt.jpg" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
+<Seperator dots/>
+                <Seperator />
                 <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
                 <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />
                 <Text p></Text><Image src="#" alt="Finished Plaid Shirt" caption="PLAID SHIRT FOR WOMEN/MEN" size={ImageSize.SMALL} className="mb-5" />

@@ -3,7 +3,7 @@ import { iArticle } from "../src/shared/interfaces";
 // Import author profiles, just type the name you have set in _BLOG_SETUP inside the curly brackets
 import { JULANN } from "./_BLOG_SETUP";
 
-// main article list to display all atricles
+// main article list to display all articles
 /**
  * Example article object
  * 
@@ -14,7 +14,7 @@ import { JULANN } from "./_BLOG_SETUP";
         // the author object you created in _BLOG_SETUP file
         author: JULANN,
         date: "March 03 2022",
-        articleTitle: "How to setup this plog template",
+        articleTitle: "How to setup this blog template",
         tags: "demo, blog setup",
         thumbnail: "/images/tutorials/demo-image.jpg",
         shortIntro: "These are the steps to setup your blog",
@@ -25,7 +25,7 @@ import { JULANN } from "./_BLOG_SETUP";
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
         keywords: "demo, blog setup",
         ogImage: "/images/tutorials/demo-image.jpg",
-        twitterHandle: "@JULANN_nalwala",
+        twitterHandle: "",
     }
 }
  */
@@ -48,9 +48,9 @@ const ARTICLES_LIST: iArticle[] = [
     seo: {
       title: "Plaid shirt-tailored shirt for women/ men",
       description: "These are the steps to setup your blog",
-      keywords: "Plaid shirt, demo blog",
+      keywords: "Plaid shirt, How to sew a shirt collar, how to sew a shirt cuff, how to sew a shirt band, men's classic shirt, how to sew a tailored sleeve placket, how to sew a plaid shirt, plaid shirt, uneven plaid shirt, plaid fabric, even plaid fabric, even plaid shirt, tailored sleeve placket, sleeve placket, Kwik Sew K3555 collared shirt, Kwik Sew K3555, women's classic shirt",
       ogImage: "/public/imp_assets/tutorials/how-to-setup-blog.svg",
-      twitterHandle: "@JULANN_nalwala",
+      twitterHandle: "",
       author: JULANN.name,
     },
   },

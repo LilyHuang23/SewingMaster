@@ -5,16 +5,16 @@ import { iSEO } from "../src/shared/interfaces";
 
 const ContactUs = () => {
     const PAGE_SEO: iSEO = {
-        title: 'Contact Us',
+        title: 'Contact Me',
         description: 'For any any queries related to this project / template feel free to connect with us on webexpe13@gmail.com',
-        keywords: 'webexpx, contact us, webexpe13@gmail.com, next js blog template',
-        author: 'Mayur Nalwala, Rupali Yadav'
+        keywords: 'Sewing create live, sewing, contact us',
+        author: 'Julann Blake'
     } 
     return (
         <PageLayout PAGE_SEO={PAGE_SEO} home>
             <section className='container px-3 pb-10 md:pt-20 pt-[80px]'>
                 <Text title className="!text-5xl !font-light">
-                    Contact Us
+                    Contact Me
                 </Text>
 
                 <div className="flex flex-wrap mt-8 justify-between">
@@ -26,10 +26,10 @@ const ContactUs = () => {
                     </div>
                     <div className="md:w-1/3 w-full">
                         <Text p>
-                            write to us at
+                            write to me at
                         </Text>
                         <Text subtitle className="!font-light md:!text-3xl">
-                            webexpe13@gmail.com
+                            example@gmail.com
                         </Text>
                     </div>
                 </div>

@@ -102,8 +102,8 @@ export const PRIMARY_NAV: iNavSetup = {
             path: ''
         },
         {
-            label: 'About Us',
-            path: '/about-us'
+            label: 'About Me',
+            path: '/about-me'
         },
         {
             label: 'Support Us',
