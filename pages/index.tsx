@@ -5,7 +5,6 @@ import { SORTED_ARTICLES_BY_DATE } from '../BLOG_CONSTANTS/_ARTICLES_LIST';
 import { DEFAULT_SEO } from "../BLOG_CONSTANTS/_BLOG_SETUP";
 import FeaturedArticleSection from "../src/components/Misc/FeaturedArticleSection";
 import HomeNonFeatureArticles from "../src/components/Misc/HomeNonFeatureAricles";
-import Tiptap from '../src/components/Tiptap.js'
 
 
 const Home = () => {
@@ -31,14 +30,10 @@ const Home = () => {
             <LinkTo href="/pages/tutorial/all-components.tsx" passHref className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
               <span className='text-xl pt-2 block'>Components</span>
             </LinkTo>
-
-            <a href="https://www.buymeacoffee.com/webexpe13z" target="_blank" rel="noopener noreferrer" className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
-              <span className='text-xl pt-2 block'>Support Us</span>
-            </a>
           </div>
         </div>
       </section>
-      <Tiptap />
+      
       <div className="container mx-auto lg:px-[15px] px-0">
         <div className={'flex flex-wrap'}>
           <FeaturedArticleSection />

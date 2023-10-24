@@ -106,18 +106,8 @@ export const PRIMARY_NAV: iNavSetup = {
             path: '/about-me'
         },
         {
-            label: 'Support Us',
-            path: 'https://www.buymeacoffee.com/webexpe13z',
-            newTab: true
-        },
-        {
-            label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
-            newTab: true
-        },
-        {
-            label: 'Contact Us',
-            path: '/contact-us'
+            label: 'Contact Me',
+            path: '/contact-me'
         }
     ],
     socials: [
