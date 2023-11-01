@@ -5,5 +5,9 @@
   "files.exclude": {
     "**/node_modules": true
   },
-  "cSpell.words": ["JULANN", "Kwik"]
+  "cSpell.words": [
+    "blogcentered",
+    "JULANN",
+    "Kwik"
+  ]
 }

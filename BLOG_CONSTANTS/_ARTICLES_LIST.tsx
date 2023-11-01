@@ -147,19 +147,19 @@ const ARTICLES_LIST: iArticle[] = [
     },
   },
   {
-    path: "/pages/tutorial/all-components.tsx",
+    path: "/pages/tutorial/reversible-fabric-headbands.tsx",
     preview: {
       author: JULANN,
-      date: "August 08 2022",
-      articleTitle: "All Components",
-      tags: "demo, all components",
-      thumbnail: "/public/imp_assets/tutorials/all-components.svg",
-      shortIntro: "List of all usable components, its types and how to use it.",
+      date: "August 08 2023",
+      articleTitle: "DIY Reversible Fabric Headbands",
+      tags: "demo, DIY Reversible Fabric Headbands",
+      thumbnail: "/public/imp_assets/tutorials/sewing.jpg",
+      shortIntro: "DIY Reversible Fabric Headbands",
       category: "tutorial",
     },
     seo: {
-      keywords: "demo, all components, webexpe, webexpe.com",
-      ogImage: "/public/imp_assets/tutorials/all-components.svg",
+      keywords: "demo, DIY Reversible Fabric Headbands",
+      ogImage: "/public/imp_assets/tutorials/sewing.jpg",
     },
   },
   {
