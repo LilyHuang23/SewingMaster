@@ -50,18 +50,13 @@ const AllComponents = () => {
       href: "#cuttingFabric",
     },
     {
-      component: "Sewing Fabric",
-      href: "#sewingFabric",
+      component: "Hemming Top Edges",
+      href: "#hemmingEdges",
     },
     {
-      component: "Turning Inside Out",
-      href: "#turningInsideOut",
+      component: "Sew & Insert Drawstring",
+      href: "#sew",
     },
-    {
-      component: "Adding Elastic",
-      href: "#addingElastic",
-    },
-    
     {
       component: "Finish",
       href: "#finish",
@@ -110,21 +105,18 @@ const AllComponents = () => {
       <section className="container md:pt-10 pt-20 px-0 md:px-[15px]">
         <div className="md:px-0 px-3">
           <Text title className="text-blue-600">
-            DIY Reversible Fabric Headbands
+            Classic A-Line Skirt with Pockets
           </Text>
           <hr className="my-5" />
           <Text subtitle>
-          In this tutorial, we'll guide you through the steps to create stylish and versatile reversible fabric headbands. These headbands are not only a great accessory for any outfit but also make wonderful gifts. Let's get started!
-
-          </Text>
+            In this tutorial, we'll guide you through the steps to create a timeless A-line skirt with functional pockets. This mid-level project is perfect for those looking to advance their sewing skills and create a versatile wardrobe piece.          </Text>
         </div>
-
         <div className="flex md:flex-nowrap flex-wrap relative items-start mt-8">
           {/* side btns */}
           <aside className="md:w-1/5 w-full md:sticky md:top-[90px] ">
             <div className="md:rounded-lg md:p-3 md:block px-2 py-3 md:pb-0 bg-white dark:bg-slate-800 shadow-md mb-5 flex overflow-auto">
               {sideBtnsComponents()}
-              
+
             </div>
           </aside>
 
@@ -138,14 +130,15 @@ const AllComponents = () => {
                 Materials
               </Text>
               Materials Needed:
-              <li>
-                Two coordinating fabric pieces (approximately 12x3 inches each)</li>
-              <li>Elastic (about 8 inches)
-              </li><li>Sewing machine or needle and thread
-              </li><li>Pins
-              </li><li>Scissors
+              <List type={ListType.number}>
+                <li>Fabric (yardage depends on your desired skirt length and size)</li>
+                <li>Coordinating thread
+                  <li>Zipper (invisible or regular, depending on preference)</li>
+                </li><li>Interfacing (for waistband, optional)
+                </li><li>Hook and eye closure (for waistband, optional)
+                </li><li>Sewing machine and basic sewing supplies</li>
 
-              </li>
+              </List>
             </section>
 
             <section className={cardBBorder} id="cuttingFabric">
@@ -153,66 +146,56 @@ const AllComponents = () => {
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
               >
-                Cutting Fabric
+                Measuring and Cutting
               </Text>
-Begin by cutting your chosen fabric pieces to the desired dimensions (12x3 inches). <br />
-              <br />
-              
+              Measure your waist and hips for the pattern. Draft a simple A-line skirt pattern based on these measurements. Cut the fabric pieces accordingly.              <br />
+
             </section>
 
-            <section className={cardBBorder} id="sewingFabric">
+            <section className={cardBBorder} id="hemmingEdges">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
               >
-                Sewing Fabric
+                Sewing Darts (if applicable)
+              </Text>
+
+              If your skirt pattern includes darts, mark and sew them for shaping.
+            </section>
+            <section className={cardBBorder} id="Zipper&Pocket">
+              <Text
+                subtitle
+                className="mb-5 pb-3 border-b md:!text-3xl font-bold"
+              >
+                Inserting the Zipper and Pocket
+              </Text>
+              Insert the zipper into the back seam of the skirt. If using an invisible zipper, follow the appropriate technique.
+              Attach the pockets to the side seams. Make sure to reinforce the pocket openings for durability.
+
+            </section>
+            <section className={cardBBorder} id="sew">
+              <Text
+                subtitle
+                className="mb-5 pb-3 border-b md:!text-3xl font-bold"
+              >
+                Assembling the Skirt
               </Text>
               <List type={ListType.number}>
-              <li>Place the two fabric pieces right sides together. Pin along the long edge, leaving the short edges open.
-              </li><li>Sew along the pinned edge with a ¼ inch seam allowance. Leave both short edges open
-              </li>
+                <li>Join the front and back panels of the skirt, right sides together. Sew along the side seams.
+                </li><li>Prepare the waistband pieces. Attach and finish the waistband, ensuring a clean and secure finish.
+                </li>
               </List>
             </section>
-
-            <section className={cardBBorder} id="turningInsideOut">
-              <Text
-                subtitle
-                className="mb-5 pb-3 border-b md:!text-3xl font-bold"
-              >
-                Turning Inside Out
-              </Text>
-              Carefully turn the fabric tube inside out so the right sides are now facing out.
-            </section>
-
-            <section className={cardBBorder} id="addingElastic">
-              <Text
-                subtitle
-                className="mb-5 pb-3 border-b md:!text-3xl font-bold"
-              >
-                Adding Elastic
-              </Text>
-            
-              <List type={ListType.number}>
-                <li>Attach a safety pin to one end of the elastic. Thread it through the fabric tube, making sure to hold onto the other end to prevent it from getting lost inside.</li>
-                <li>Once threaded through, overlap the elastic ends by about an inch and stitch them together securely.</li>
-              </List>
-            </section>
-
 
             <section className={cardBBorder} id="finish">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
-              >Close Opening & Finishing Touches
+              >
+                Finishing Touches
               </Text>
-              <List type={ListType.number}>
-              <li>Fold in the raw edges of the fabric on each side and sew them shut. This will encase the elastic ends.
-              </li>
-              <li>Adjust the fabric so that it evenly covers the elastic. Give it a final press with an iron to smooth out any wrinkles.
-              </li>
-              </List>
+              Optional: Add interfacing to the waistband for extra stability. Attach a hook and eye closure at the top of the zipper.
             </section>
-
             <section className={cardBBorder} id="conclusion">
               <Text
                 subtitle
@@ -220,12 +203,12 @@ Begin by cutting your chosen fabric pieces to the desired dimensions (12x3 inche
               >
                 Congrats!
               </Text>
-              You've now created a beautiful reversible fabric headband! Experiment with different fabric patterns and colors to match your style.
-              <Image className="my-5" src="/public/imp_assets/tutorials/headbands.png" alt="headbands" caption="Headbands Example" size={ImageSize.DEFAULT} />
+             You've now created a stylish A-line skirt with functional pockets. This project allows for customization in fabric choice and length, making it a versatile addition to your wardrobe.
 
+<Image className="my-5" src="/public/imp_assets/tutorials/A-Line.png" alt="drawstring bag" caption="Drawstring Bag Example" size={ImageSize.DEFAULT} />
             </section>
 
-            
+
           </aside>
         </div>
       </section>

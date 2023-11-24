@@ -28,7 +28,7 @@ const SimpleNavbar = ({ openSearch, changeTheme, toggleSideMenu, openSidebar = f
           {
             logo ?
               logo.type === LogoType.IMAGE ?
-                <img src={theme === THEMES.DARK ? transformImagePaths(logo.logoLight) : transformImagePaths(logo.logo)} alt="WebExpe" className="cursor-pointer" width="100px" /> :
+                <img src={theme === THEMES.DARK ? transformImagePaths(logo.logoLight) : transformImagePaths(logo.logo)} alt="SewingMaster" className="cursor-pointer" width="100px" /> :
                 <a className='text-[22px] font-semibold'>{logo.logo}</a>
               : <a className='text-[22px] font-semibold'>Logo</a>
           }
@@ -47,6 +47,7 @@ const SimpleNavbar = ({ openSearch, changeTheme, toggleSideMenu, openSidebar = f
                   {each.label}
                 </a>
                 :
+                // eslint-disable-next-line react/jsx-key
                 <NavCatergoryDD label={each.label} openDD={openDD} setOpenDD={() => setOpenDD(!openDD)} floating />
             ))
           }

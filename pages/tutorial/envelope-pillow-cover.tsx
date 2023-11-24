@@ -50,18 +50,17 @@ const AllComponents = () => {
       href: "#cuttingFabric",
     },
     {
-      component: "Sewing Fabric",
-      href: "#sewingFabric",
+      component: "Hemming Edges",
+      href: "#hemmingEdges",
     },
     {
-      component: "Turning Inside Out",
-      href: "#turningInsideOut",
+      component: "Creating Overlap",
+      href: "#Overlap",
     },
     {
-      component: "Adding Elastic",
-      href: "#addingElastic",
+      component: "Pin and Sew",
+      href: "#sew",
     },
-    
     {
       component: "Finish",
       href: "#finish",
@@ -110,13 +109,11 @@ const AllComponents = () => {
       <section className="container md:pt-10 pt-20 px-0 md:px-[15px]">
         <div className="md:px-0 px-3">
           <Text title className="text-blue-600">
-            DIY Reversible Fabric Headbands
+          Sew Your Own Envelope Pillow Covers
           </Text>
           <hr className="my-5" />
           <Text subtitle>
-          In this tutorial, we'll guide you through the steps to create stylish and versatile reversible fabric headbands. These headbands are not only a great accessory for any outfit but also make wonderful gifts. Let's get started!
-
-          </Text>
+          Learn how to make custom envelope-style pillow covers to refresh the look of your living space. This tutorial will guide you through the steps for a simple and versatile sewing project.          </Text>
         </div>
 
         <div className="flex md:flex-nowrap flex-wrap relative items-start mt-8">
@@ -139,8 +136,8 @@ const AllComponents = () => {
               </Text>
               Materials Needed:
               <li>
-                Two coordinating fabric pieces (approximately 12x3 inches each)</li>
-              <li>Elastic (about 8 inches)
+              Fabric (enough to cover your pillow plus a little extra for seam allowance)</li>
+              <li>Pillow insert
               </li><li>Sewing machine or needle and thread
               </li><li>Pins
               </li><li>Scissors
@@ -153,64 +150,66 @@ const AllComponents = () => {
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
               >
-                Cutting Fabric
+                Measuring and Cutting
               </Text>
-Begin by cutting your chosen fabric pieces to the desired dimensions (12x3 inches). <br />
+              Measure your pillow insert and add 1 inch to both the length and width for seam allowance. Cut two fabric pieces according to these dimensions.<br />
               <br />
               
             </section>
 
-            <section className={cardBBorder} id="sewingFabric">
+            <section className={cardBBorder} id="hemmingEdges">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
               >
-                Sewing Fabric
+                Hemming Edges
               </Text>
               <List type={ListType.number}>
-              <li>Place the two fabric pieces right sides together. Pin along the long edge, leaving the short edges open.
-              </li><li>Sew along the pinned edge with a ¼ inch seam allowance. Leave both short edges open
+              <li>On one of the longer sides of each fabric piece, fold the edge over twice (about ½ inch each fold) to create a neat hem. Sew along the fold to secure it.
               </li>
               </List>
             </section>
 
-            <section className={cardBBorder} id="turningInsideOut">
+            <section className={cardBBorder} id="overlap">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
               >
-                Turning Inside Out
+                Creating Overlap
               </Text>
-              Carefully turn the fabric tube inside out so the right sides are now facing out.
+              Lay one fabric piece flat with the right side facing up. Place the other piece on top with the right side facing down, aligning the hemmed edges. The hemmed edges should overlap in the center.
             </section>
 
-            <section className={cardBBorder} id="addingElastic">
+            <section className={cardBBorder} id="sew">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
               >
-                Adding Elastic
+                Pin and Sew
               </Text>
-            
-              <List type={ListType.number}>
-                <li>Attach a safety pin to one end of the elastic. Thread it through the fabric tube, making sure to hold onto the other end to prevent it from getting lost inside.</li>
-                <li>Once threaded through, overlap the elastic ends by about an inch and stitch them together securely.</li>
+             
+              <List >
+              <li>Pin around the remaining three edges to hold the fabric in place. Sew around all four edges with a ½ inch seam allowance.</li>
               </List>
-            </section>
+            
+              <Text
+                subtitle
+                className="mb-5 pb-3  md:!text-3xl font-bold"
+              >
+                Trim Corners and Turn Inside Out
+              </Text>
+              Trim a small triangle off each corner (be careful not to cut the stitching). This reduces bulk in the corners when you turn it inside out.
 
+            </section>
 
             <section className={cardBBorder} id="finish">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
-              >Close Opening & Finishing Touches
+              >
+                Insert Pillow and Adjust:
               </Text>
-              <List type={ListType.number}>
-              <li>Fold in the raw edges of the fabric on each side and sew them shut. This will encase the elastic ends.
-              </li>
-              <li>Adjust the fabric so that it evenly covers the elastic. Give it a final press with an iron to smooth out any wrinkles.
-              </li>
-              </List>
+              Turn the cover inside out, gently pushing out the corners. Insert your pillow and adjust as needed.
             </section>
 
             <section className={cardBBorder} id="conclusion">
@@ -220,9 +219,8 @@ Begin by cutting your chosen fabric pieces to the desired dimensions (12x3 inche
               >
                 Congrats!
               </Text>
-              You've now created a beautiful reversible fabric headband! Experiment with different fabric patterns and colors to match your style.
-              <Image className="my-5" src="/public/imp_assets/tutorials/headbands.png" alt="headbands" caption="Headbands Example" size={ImageSize.DEFAULT} />
-
+              Congratulations! You've successfully created a custom envelope-style pillow cover. Mix and match fabrics to suit your decor.
+              <Image className="my-5" src="/public/imp_assets/tutorials/envelope-pillow.png" alt="envelope-pillow" caption="Envelope Pillow Example" size={ImageSize.DEFAULT} />
             </section>
 
             

@@ -50,18 +50,13 @@ const AllComponents = () => {
       href: "#cuttingFabric",
     },
     {
-      component: "Sewing Fabric",
-      href: "#sewingFabric",
+      component: "Hemming Top Edges",
+      href: "#hemmingEdges",
     },
     {
-      component: "Turning Inside Out",
-      href: "#turningInsideOut",
+      component: "Sew & Insert Drawstring",
+      href: "#sew",
     },
-    {
-      component: "Adding Elastic",
-      href: "#addingElastic",
-    },
-    
     {
       component: "Finish",
       href: "#finish",
@@ -110,15 +105,13 @@ const AllComponents = () => {
       <section className="container md:pt-10 pt-20 px-0 md:px-[15px]">
         <div className="md:px-0 px-3">
           <Text title className="text-blue-600">
-            DIY Reversible Fabric Headbands
+          Easy Drawstring Bag for Beginners
           </Text>
           <hr className="my-5" />
           <Text subtitle>
-          In this tutorial, we'll guide you through the steps to create stylish and versatile reversible fabric headbands. These headbands are not only a great accessory for any outfit but also make wonderful gifts. Let's get started!
-
+          In this tutorial, we'll walk you through the process of making a simple drawstring bag. These bags are not only useful for organizing and carrying items, but they also make delightful personalized gifts.       
           </Text>
-        </div>
-
+          </div>
         <div className="flex md:flex-nowrap flex-wrap relative items-start mt-8">
           {/* side btns */}
           <aside className="md:w-1/5 w-full md:sticky md:top-[90px] ">
@@ -139,8 +132,9 @@ const AllComponents = () => {
               </Text>
               Materials Needed:
               <li>
-                Two coordinating fabric pieces (approximately 12x3 inches each)</li>
-              <li>Elastic (about 8 inches)
+              Fabric (approximately 12x18 inches)</li>
+              <li>Cord or ribbon (about 24 inches)
+                <li>Safety pin</li>
               </li><li>Sewing machine or needle and thread
               </li><li>Pins
               </li><li>Scissors
@@ -153,65 +147,51 @@ const AllComponents = () => {
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
               >
-                Cutting Fabric
+                Measuring and Cutting
               </Text>
-Begin by cutting your chosen fabric pieces to the desired dimensions (12x3 inches). <br />
+              Measure your pillow insert and add 1 inch to both the length and width for seam allowance. Cut two fabric pieces according to these dimensions.<br />
               <br />
               
             </section>
 
-            <section className={cardBBorder} id="sewingFabric">
+            <section className={cardBBorder} id="hemmingEdges">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
               >
-                Sewing Fabric
+                Hemming Top Edge
               </Text>
+             
+              Fold down about ½ inch along the top edge of the fabric. Sew along the fold, creating a channel for the drawstring.
+        
+            </section>
+
+        
+
+            <section className={cardBBorder} id="sew">
+              <Text
+                subtitle
+                className="mb-5 pb-3 border-b md:!text-3xl font-bold"
+              >
+                Sew and Insert Drawstring
+              </Text>
+             
               <List type={ListType.number}>
-              <li>Place the two fabric pieces right sides together. Pin along the long edge, leaving the short edges open.
-              </li><li>Sew along the pinned edge with a ¼ inch seam allowance. Leave both short edges open
-              </li>
+                <li>Fold the fabric in half with the right sides together. Pin and sew along both side edges, leaving the top (with the hem) open.</li>
+                <li>Turn the bag right side out. About 1 inch below the top edge, sew a straight line all the way around the bag. This creates a channel for the drawstring.</li>
+              <li>Attach the safety pin to one end of the cord or ribbon. Thread it through the channel, going all the way around until it comes out the other side.
+</li>
               </List>
             </section>
-
-            <section className={cardBBorder} id="turningInsideOut">
-              <Text
-                subtitle
-                className="mb-5 pb-3 border-b md:!text-3xl font-bold"
-              >
-                Turning Inside Out
-              </Text>
-              Carefully turn the fabric tube inside out so the right sides are now facing out.
-            </section>
-
-            <section className={cardBBorder} id="addingElastic">
-              <Text
-                subtitle
-                className="mb-5 pb-3 border-b md:!text-3xl font-bold"
-              >
-                Adding Elastic
-              </Text>
-            
-              <List type={ListType.number}>
-                <li>Attach a safety pin to one end of the elastic. Thread it through the fabric tube, making sure to hold onto the other end to prevent it from getting lost inside.</li>
-                <li>Once threaded through, overlap the elastic ends by about an inch and stitch them together securely.</li>
-              </List>
-            </section>
-
 
             <section className={cardBBorder} id="finish">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
-              >Close Opening & Finishing Touches
+              >
+                Finishing Touches
               </Text>
-              <List type={ListType.number}>
-              <li>Fold in the raw edges of the fabric on each side and sew them shut. This will encase the elastic ends.
-              </li>
-              <li>Adjust the fabric so that it evenly covers the elastic. Give it a final press with an iron to smooth out any wrinkles.
-              </li>
-              </List>
-            </section>
+              Tie the two ends of the drawstring together securely. Trim any excess cord.            </section>
 
             <section className={cardBBorder} id="conclusion">
               <Text
@@ -220,9 +200,8 @@ Begin by cutting your chosen fabric pieces to the desired dimensions (12x3 inche
               >
                 Congrats!
               </Text>
-              You've now created a beautiful reversible fabric headband! Experiment with different fabric patterns and colors to match your style.
-              <Image className="my-5" src="/public/imp_assets/tutorials/headbands.png" alt="headbands" caption="Headbands Example" size={ImageSize.DEFAULT} />
-
+              You've now made a charming drawstring bag! Customize it with different fabrics and cords for a personalized touch.
+              <Image className="my-5" src="/public/imp_assets/tutorials/drawstring.png" alt="drawstring bag" caption="Drawstring Bag Example" size={ImageSize.DEFAULT} />
             </section>
 
             

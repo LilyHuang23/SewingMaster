@@ -63,7 +63,7 @@ const CenteredNavbar = ({
                     ? transformImagePaths(logo.logoLight)
                     : transformImagePaths(logo.logo)
                 }
-                alt="WebExpe"
+                alt="SewingMaster"
                 className="cursor-pointer"
                 width="100px"
               />
@@ -117,6 +117,7 @@ const CenteredNavbar = ({
               </a>
             )
           ) : (
+            // eslint-disable-next-line react/jsx-key
             <NavCatergoryDD
               label={each.label}
               openDD={openDD}

@@ -39,7 +39,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
 
             <aside className={combineClasses(classes.nav_sidebar_wrapper, openSidebar && classes.open, 'dark:bg-slate-900 dark:text-white bg-white text-black')}>
                 <div className='flex items-center justify-between pb-3' onClick={closeNavSidebar}>
-                    <p className=''>menu</p>
+                    <p className=''>Menu</p>
                     <div><MdOutlineClose className='text-slate-800 dark:text-white text-[25px]' /></div>
                 </div>
                 <hr />
@@ -54,6 +54,7 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                                     {each.label}
                                 </a>
                                 :
+                                // eslint-disable-next-line react/jsx-key
                                 <NavCatergoryDD label={each.label} openDD={openDD} setOpenDD={() => setOpenDD(!openDD)} />
                         ))
                     }
@@ -62,33 +63,19 @@ const NavSidebar = ({ openSidebar = false, closeNavSidebar, navSetup, changeThem
                             <>
                                 <hr />
                                 <Text subtitle className='mt-3 !text-[18px]'>Examples and tutorials</Text>
-                                <LinkTo href='/pages/tutorial/all-components.tsx' passHref className='text-[16px] block my-3'>
-                                    All Components
+                                <LinkTo href='/pages/tutorial/reversible-fabric-headbands.tsx' passHref className='text-[16px] block my-3'>
+                                Reversible Fabric Headbands
                                 </LinkTo>
-                                <LinkTo href='/pages/tutorial/style-guide.tsx' passHref className='text-[16px] block my-3'>
-                                    Style Guide
+                                <LinkTo href='/pages/tutorial/envelope-pillow-cover.tsx' passHref className='text-[16px] block my-3'>
+                                Envelope Pillow Cover
                                 </LinkTo>
-                                <LinkTo href='/pages/tutorial/home-layout.tsx' passHref className='text-[16px] block my-3'>
-                                    Home Page Layout
+                                <LinkTo href='/pages/tutorial/easy-drawstring-bag-for-beginners.tsx' passHref className='text-[16px] block my-3'>
+                                Easy Drawstring Bag
                                 </LinkTo>
-                                <LinkTo href='/pages/tutorial/blog-with-sidebar-layout.tsx' passHref className='text-[16px] block my-3'>
-                                    Page Layout for article with sidebar
+                                <LinkTo href='/pages/tutorial/classic-A-line-skirt-with-pockets.tsx' passHref className='text-[16px] block my-3'>
+                                Classic A-Line Skirt With Pockets
                                 </LinkTo>
-                                <LinkTo href='/pages/tutorial/blog-with-centered-layout.tsx' passHref className='text-[16px] block my-3'>
-                                    Page Layout for centered article
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/how-to-setup-blog.tsx' passHref className='text-[16px] block my-3'>
-                                    How to setup your blog
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/how-to-write-your-first-article.tsx' passHref className='text-[16px] block my-3'>
-                                    How to write your first article
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/how-to-deploy-blog.tsx' passHref className='text-[16px] block my-3'>
-                                    How to export the blog
-                                </LinkTo>
-                                <LinkTo href='/pages/tutorial/icons.tsx' passHref className='text-[16px] block my-3'>
-                                    Icons
-                                </LinkTo>
+                                
                             </>
                             : null
                     }

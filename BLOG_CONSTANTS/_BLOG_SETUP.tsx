@@ -6,49 +6,33 @@ import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFill
 
 
 
-export const JULANN: IAuthor = {
-    name: "Julann Blake",
-    designation: "Instructor of Brigham Young University--Idaho",
-    bio: "Hi, my name is Julann Blake, from Rexburg, Idaho, and I Love Sewing!  \
-    I have been sewing since 4th grade and started out by designing beautiful gowns\
-    for my paper dolls and the latest fashions for my Barbies.  \
+export const LILY: IAuthor = {
+    name: "Lily Huang",
+    designation: "Student of Brigham Young University--Idaho",
+    bio: "Hi, my name is Lily Huang, from Taichung, Taiwan, and I Love Sewing!  \
+    I have been sewing since 9th grade.  \
     My love for sewing and fashion turned into a career, \
-    with my own home sewing/alteration business and teaching apparel design classes at a wonderful university, \
-    Brigham Young University--Idaho.  At work I recently helped develop our first online beginning sewing class and am thrilled that with technology I can help share my love for sewing with the world. I hope you enjoy my blog posts and can learn something useful.",
-    profilePic: "./images/JulannBlake.jpg",
+    with my own home sewing/alteration business and will be teaching apparel design online classes in the future, \
+   I recently helped develop our first online beginning sewing class and am thrilled that with technology I can help share my love for sewing with the world.\
+    I hope you enjoy my blog posts and can learn something useful.",
+    profilePic: "",
     social: [
         {
             icon: <AiFillGithub />,
-            link: 'https://github.com/nmayur'
+            link: 'https://github.com/LilyHuang23'
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/mayur-nalwala/'
+            link: 'https://www.linkedin.com/in/lily-huang-yl/'
         },
     ]
 }
 
-// export const RUPALI: IAuthor = {
-//     name: "Rupali Yadav",
-//     designation: "IT Analyst",
-//     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-//     profilePic: "",
-//     social: [
-//         {
-//             icon: <AiFillGithub />,
-//             link: 'https://github.com/rupali-yadav'
-//         },
-//         {
-//             icon: <AiFillLinkedin />,
-//             link: 'https://www.linkedin.com/in/rupali-yadav-087bb4112/'
-//         },
-//     ]
-// }
 
 
 // This can your company name / your name etc for SEO purposes
-export const WEBSITE_NAME: string = 'Sew. Create. Live Blog';
-export const WEBSITE_URL: string = 'https://sewcreatelive.web.app/';
+export const WEBSITE_NAME: string = 'Sewing Master';
+export const WEBSITE_URL: string = 'https://sewingmaster.web.app/';
 
 /**
  * This is the main navigation setup.
@@ -116,11 +100,11 @@ export const PRIMARY_NAV: iNavSetup = {
             icon: <AiFillFacebook />
         },
         {
-            link: 'https://www.instagram.com/julannblakedesigns/',
+            link: 'https://www.instagram.com/iamlilyhuang/',
             icon: <AiFillInstagram />
         },
         {
-            link: 'https://twitter.com/WebExpe',
+            link: 'https://twitter.com/',
             icon: <AiOutlineTwitter />
         },
     ]
@@ -131,7 +115,7 @@ export const DEFAULT_SEO: iSEO = {
     description: "A blog that help you become sewing master.",
     keywords: "Sewing Blog, Sewing tutorial blog, Sewing, Handmade, ",
     url: WEBSITE_URL,
-    author: `${JULANN.name}`,
-    twitterHandle: '@WebExpe',
-    ogImage: '/public/images/og-image.jpg'
+    author: `${LILY.name}`,
+    twitterHandle: '@',
+    ogImage: '/public/images/og-image.jpeg'
 }
