@@ -87,19 +87,19 @@ const ARTICLES_LIST: iArticle[] = [
     },
   },
   {
-    path: "/pages/tutorial/easy-drawstring-bag-for-beginners.tsx",
+    path: "/pages/tutorial/tote-bag.tsx",
     preview: {
       author: LILY,
       date: "August 28 2023",
-      articleTitle: "Easy Drawstring Bag for Beginners",
-      tags: "demo, Easy Drawstring Bag for Beginners",
-      thumbnail: "/public/imp_assets/tutorials/drawstring.png",
-      shortIntro: "Easy Drawstring Bag for Beginners",
-      category: "Beginner",
+      articleTitle: "Tote Bag with Lining",
+      tags: "demo, Tote Bag with Lining",
+      thumbnail: "/public/imp_assets/tutorials/ToteBag.png",
+      shortIntro: "Tote Bag with Lining",
+      category: "Mid-Level",
     },
     seo: {
-      keywords: "demo, Easy Drawstring Bag for Beginners",
-      ogImage: "/public/imp_assets/tutorials/drawstring.png",
+      keywords: "demo, Tote Bag with Lining",
+      ogImage: "/public/imp_assets/tutorials/ToteBag.png",
     },
   },
   {
