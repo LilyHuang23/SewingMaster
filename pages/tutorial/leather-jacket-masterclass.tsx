@@ -25,7 +25,7 @@ const AllComponents = () => {
   const routerIncludesHash = router.asPath.includes("#");
   const [activeHash, setActiveHash] = useState("");
   const cardBBorder =
-    "border-b-[8px] border-pink-500 bg-white dark:bg-slate-800 shadow-md md:rounded-lg px-3 pb-2 pt-1 mb-8";
+    "border-b-[8px] border-pink-500 bg-white dark:bg-slate-800 shadow-md md:rounded-lg px-3 pb-2 pt-1 mt-8 mb-8";
 
   useEffect(() => {
     if (routerIncludesHash) {
@@ -47,15 +47,15 @@ const AllComponents = () => {
       href: "#cuttingFabric",
     },
     {
-      component: "Hemming Top Edges",
-      href: "#hemmingEdges",
-    },
-    {
-      component: "Sew & Insert Drawstring",
+      component: "Sewing Leather Panels",
       href: "#sew",
     },
     {
-      component: "Finish",
+      component: "Zipper Snap Finishing",
+      href: "#Zipper&Pocket",
+    },
+    {
+      component: "Edges and Hems",
       href: "#finish",
     },
   ];
@@ -165,7 +165,7 @@ Select high-quality leather or faux leather and prepare it for cutting by stabil
               Apply interfacing to collar and cuffs for added structure. Install metal zippers and snaps, ensuring precision in placement.
             </section>
 
-            <section className={cardBBorder} id="hemmingEdges">
+            <section className={cardBBorder} id="sew">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
@@ -198,17 +198,18 @@ Select high-quality leather or faux leather and prepare it for cutting by stabil
               </Text>
               Ensure smooth operation of zippers and snaps, securing them in place with reinforced stitching.
             </section>
-            <section className={cardBBorder} id="sew">
+            
+            <section className={cardBBorder} id="finish">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
               >
-                Finishing Edges and Hems:
+                Finishing Edges and Hems
               </Text>
               Finish the edges and hems of the leather jacket with precision, considering the thickness of the material.
-            </section>
+            
 
-            <section className={cardBBorder} id="finish">
+            
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"

@@ -210,9 +210,6 @@ const AllComponents = () => {
                 Insert Pillow and Adjust:
               </Text>
               Turn the cover inside out, gently pushing out the corners. Insert your pillow and adjust as needed.
-            </section>
-
-            <section className={cardBBorder} id="conclusion">
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"

@@ -50,11 +50,15 @@ const AllComponents = () => {
       href: "#cuttingFabric",
     },
     {
-      component: "Hemming Top Edges",
+      component: "Sewing Darts",
       href: "#hemmingEdges",
     },
     {
-      component: "Sew & Insert Drawstring",
+      component: "Zipper & Pocket",
+      href: "#Zipper&Pocket",
+    },
+    {
+      component: "Assembling Skirt",
       href: "#sew",
     },
     {

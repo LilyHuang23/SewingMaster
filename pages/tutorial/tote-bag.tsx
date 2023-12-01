@@ -49,12 +49,9 @@ const AllComponents = () => {
       component: "Measuring and Cutting",
       href: "#cuttingFabric",
     },
+   
     {
-      component: "Hemming Top Edges",
-      href: "#hemmingEdges",
-    },
-    {
-      component: "Sew & Insert Drawstring",
+      component: "Assembling the Bag",
       href: "#sew",
     },
     {
@@ -153,41 +150,39 @@ const AllComponents = () => {
 
             </section>
 
-            <section className={cardBBorder} id="hemmingEdges">
-              <Text
+            <section className={cardBBorder} id="sew">
+            <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
+              >
+                Assembling the Bag
+              </Text>
+              <Text
+                subtitle
+                className="mb-5 pb-3 border-b md:!text-2xl font-bold"
               >
                 Sewing Darts (if applicable)
               </Text>
 
               If your skirt pattern includes darts, mark and sew them for shaping.
-            </section>
-            <section className={cardBBorder} id="Zipper&Pocket">
+      
               <Text
                 subtitle
-                className="mb-5 pb-3 border-b md:!text-3xl font-bold"
+                className="mb-5 pb-3 border-b md:!text-2xl font-bold"
               >
                 Inserting the Zipper and Pocket
               </Text>
               Insert the zipper into the back seam of the skirt. If using an invisible zipper, follow the appropriate technique.
               Attach the pockets to the side seams. Make sure to reinforce the pocket openings for durability.
 
-            </section>
-            <section className={cardBBorder} id="sew">
-              <Text
-                subtitle
-                className="mb-5 pb-3 border-b md:!text-3xl font-bold"
-              >
-                Assembling the Bag
-              </Text>
+         
+           
+              
               <List type={ListType.number}>
                 <li>Assemble the outer shell of the bag, including any pockets or design elements. Sew the side seams and bottom seam.
                 </li><li>Repeat the previous step with the lining fabric, leaving a small opening at the bottom for turning later.
                 </li><li>Create boxed corners on both the outer shell and lining to give the bag depth and structure.
-                </li><li>
-
-                </li><li>
+                
 
                 </li>
               </List>

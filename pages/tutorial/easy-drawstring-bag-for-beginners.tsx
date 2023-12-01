@@ -191,9 +191,7 @@ const AllComponents = () => {
               >
                 Finishing Touches
               </Text>
-              Tie the two ends of the drawstring together securely. Trim any excess cord.            </section>
-
-            <section className={cardBBorder} id="conclusion">
+              Tie the two ends of the drawstring together securely. Trim any excess cord. 
               <Text
                 subtitle
                 className="mb-5 pb-3 border-b md:!text-3xl font-bold"
