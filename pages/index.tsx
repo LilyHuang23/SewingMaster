@@ -27,8 +27,8 @@ const Home = () => {
             <LinkTo href="/pages/about-me.tsx" passHref className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
               <span className='text-xl pt-2 block'>About Me</span>
             </LinkTo>
-            <LinkTo href="/pages/tutorial/all-components.tsx" passHref className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
-              <span className='text-xl pt-2 block'>Components</span>
+            <LinkTo href="/blog/" passHref className='flex items-center justify-center rounded-md bg-blue-600 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2'>
+              <span className='text-xl pt-2 block'>Tutorials</span>
             </LinkTo>
           </div>
         </div>
